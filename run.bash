@@ -31,9 +31,9 @@
 #    exit 1
 #fi
 
-#IMG=$(basename $1)
+IMG=$(basename $1)
 #IMG=ros:noetic-robot
-IMG=neil-ros-noetic:latest
+#IMG=neil-ros-noetic:latest
 
 ARGS=("$@")
 
