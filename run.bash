@@ -102,8 +102,8 @@ docker run -it \
   -v "/tmp/.X11-unix:/tmp/.X11-unix" \
   -v "/etc/localtime:/etc/localtime:ro" \
   -v "/dev/input:/dev/input" \
-  -v "/home/neil/devel/slam:/home/developer/slam" \
-  -v "/home/neil/data:/home/developer/data" \
+  -v "$PWD/../:/home/developer/slam_tools" \
+  -v "$HOME/data:/home/developer/data" \
   --network host \
   --rm \
   --privileged \
